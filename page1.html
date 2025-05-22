@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rosedale Hotel Hong Kong</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+    }
+
+    /* Page 1 - Welcome */
+    .welcome {
+      position: relative;
+      height: 100vh;
+      background-image: url('welcome.jpg'); /* Replace with your actual image filename */
+      background-size: cover;
+      background-position: center;
+      color: #1a010e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .welcome h1 {
+      font-size: 48px;
+      letter-spacing: 2px;
+    }
+
+    .welcome p {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    /* Page 2 - About */
+    .about {
+      background-color: #003322;
+      color: #fdfdfd;
+      padding: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .about-text {
+      width: 55%;
+    }
+
+    .about-text h2 {
+      color: #94f8af;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .about-image {
+      width: 40%;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .next {
+      text-align: right;
+      margin-top: 10px;
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .next a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Page 3 - Accommodations */
+    .accommodations {
+      background-color: #0600081a;
+      padding: 60px 30px;
+      text-align: center;
+    }
+
+    .accommodations h2 {
+      font-size: 28px;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .accommodations p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .accommodation-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .accommodation-links a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .accommodation-links img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      border: 2px solid #333;
+    }
+
+    .accommodation-links div {
+      margin-top: 8px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page 1: Welcome -->
+  <section class="welcome">
+    <h1>WELCOME TO<br>ROSEDALE</h1>
+    <p>HONG KONG</p>
+  </section>
+
+  <!-- Page 2: About Rosedale -->
+  <section class="about">
+    <div class="about-text">
+      <h2>ABOUT ROSEDALE</h2>
+      <p>Rosedale Hotel Hong Kong is a four-star establishment nestled in a tranquil corner of Causeway Bay, one of Hong Kong’s most vibrant shopping, entertainment, and business districts. The hotel offers 299 modern and stylish rooms designed to provide maximum comfort and convenience.</p>
+      <p>Situated at 8 Shelter Street, the hotel is approximately a five-minute walk to the Mass Transit Railway (MTR) station, making it convenient for visitors to explore many attractions like the Hong Kong Science Museum and the Hong Kong Space Museum. The Rosedale experience ensures you enjoy the best of both local opportunities and the calm ambiance of urban hotel life.</p>
+      <div class="next"><a href="#accommodations">Next.</a></div>
+    </div>
+    <div class="about-image">
+      <img src="lobby.png" alt="Rosedale Lobby" />
+    </div>
+  </section>
+
+  <!-- Page 3: Accommodations -->
+  <section class="accommodations" id="accommodations">
+    <h2>Accommodations</h2>
+    <p>Click one to see 👇</p>
+    <div class="accommodation-links">
+      <a href="dining.html">
+        <img src="dining-placeholder.jpg" alt="Dining Area" />
+        <div>Dining Area</div>
+      </a>
+      <a href="facilities.html">
+        <img src="facilities-placeholder.jpg" alt="Facilities" />
+        <div>Facilities</div>
+      </a>
+      <a href="guest.html">
+        <img src="guest-placeholder.jpg" alt="Guest Service" />
+        <div>Guest Service</div>
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>

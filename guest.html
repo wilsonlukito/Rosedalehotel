@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guest Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #002f24;
+      color: #fcd7f8;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 40px;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .left {
+      width: 55%;
+    }
+
+    .right {
+      width: 40%;
+      position: relative;
+    }
+
+    h1 {
+      color: #78fcbf;
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    .service {
+      margin-bottom: 40px;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    .service-title {
+      color: #fcd7f8;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .service-desc {
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .back {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #fcd7f8;
+      font-size: 24px;
+      text-decoration: none;
+      font-family: Georgia, serif;
+    }
+
+    .image-wrapper {
+      border-radius: 0 0 0 100px;
+      overflow: hidden;
+    }
+
+    .image-wrapper img {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="left">
+    <h1>Guest Services</h1>
+
+    <div class="service">
+      <img src="icon-24hrs.png" alt="24hr" class="icon" />
+      <div>
+        <div class="service-title">24 Hours Service</div>
+        <div class="service-desc">Professional front desk and concierge support available 24/7 for your convenience.</div>
+      </div>
+    </div>
+
+    <div class="service">
+      <img src="icon-wifi.png" alt="WiFi" class="icon" />
+      <div>
+        <div class="service-title">Free Wifi</div>
+        <div class="service-desc">Enjoy complimentary high-speed internet throughout your stay, in all rooms and public areas.</div>
+      </div>
+    </div>
+
+    <div class="service">
+      <img src="icon-restaurant.png" alt="Restaurant" class="icon" />
+      <div>
+        <div class="service-title">Restaurant</div>
+        <div class="service-desc">Dine at the Sonata Western Restaurant or relax at SkyZone Lounge with city views.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <a href="page1.html" class="back">Back.</a>
+    <div class="image-wrapper">
+      <img src="guest-service.png" alt="Receptionist Image" />
+    </div>
+  </div>
+
+</body>
+</html>
